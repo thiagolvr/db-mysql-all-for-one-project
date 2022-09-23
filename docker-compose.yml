@@ -35,6 +35,7 @@ services:
   # Serviço que irá rodar o banco de dados
   db:
     container_name: all_for_one_db
+    platform: linux/x86_64
     image: mysql:5.7
     restart: always
     # Lista de portas mapeadas de dentro para fora do container
