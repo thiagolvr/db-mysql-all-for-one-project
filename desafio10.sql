@@ -1,7 +1,7 @@
 SELECT
     *
 FROM
-    northwind2.purchase_orders
+    northwind.purchase_orders
 WHERE
     created_by >= 3
 ORDER BY
